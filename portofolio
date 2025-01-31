@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PortofolioNabillatul</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<section id="home">
+<nav class="navbar navbar-expand-sm  navbar-dark">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+      <a href="index.html"><img src="img/logo.jpeg" alt="Logo" style="width:40px;" class="rounded-pill"></a>
+    </a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <link><a class="nav-link" href="#about">Tentang Saya</link></a>
+        </li>
+        <li class="nav-item">
+           <link><a class="nav-link" href="#skill">Keahlian</link></a>
+        </li>  
+        <li class="nav-item">
+          <link><a class="nav-link" href="#portfolio">Hobi</link></a>
+        </li>   
+        <li class="nav-item">
+          <link><a class="nav-link" href="#contack">Kontak</link></a>
+        </li>     
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="main">
+  <img id="main-img" src="img/gambar.png" class="gambar">
+<div class="text">
+  <div class="text1">Halo Semua,Saya</div>
+  <div class="text2" id="typing"><span>Nabillatul Syahbandi
+  Ardyansal</span></div>
+  <div id="line"></div>
+  <div class="text3">Mahasiswa Universitas Pahlawan <br>
+  Prodi Teknik Informatika</div>
+  <div>
+    <a href="https://wa.me/qr/CS6GZPC7HGUQE1"><button class="btn">Hubungi Saya</button></a>
+  </div>
+  <div class="icon">
+    <a href="https://www.instagram.com/nabilll1__/profilecard/?igsh=aDh5eGh2Y2UwbDdx"><i class="fa-brands fa-instagram fa-2xs"></i></a>
+    <a href="https://www.facebook.com/share/15KtnaFW1g/"><i class="fa-brands fa-facebook fa-2xs"></i></a>
+    <a href="https://discord.gg/D9DFR7N2"><i class="fa-brands fa-discord fa-2xs"></i></a>
+    <a href="https://www.youtube.com/@bilzzyt6308"><i class="fa-brands fa-youtube fa-2xs"></i></a>
+    <a href="https://www.tiktok.com/@nabilll1__?_t=8rssVMx7CtD&_r=1"><i class="fa-brands fa-tiktok fa-2xs"></i></a>
+  </div>
+</div>
+</div>
+</section>
+
+<!---Profil---->
+<section class="about" id="about">
+  <div class="main1">
+    <img src="img/foto.jpeg">
+    <div class="about-text">
+      <h2>Tentang Saya</h2>
+      <h5>Mahasiswa <span style="color: red">Teknik Informatika</span></h5>
+      <p>Perkenalkan nama saya Nabillatul Syahbandi Ardiansyal asal Tanjung Rambutan. Mahasiswa Universitas Pahlawan Tuanku Tambusai, Bangkinang Kota. Berfokus dalam ilmu pemrograman berbasis web, dengan keahlian dasar dalam beberapa bahasa pemrograman seperti Python, C++, Java, dan juga HTML.</p>
+      <button type="button"><link><a class="nav-link" href="#container1">Selanjutnya</link></a></button>
+    </div>
+  </div>
+</section>
+<h2 class="h2">Keahlian</h2>
+<section >
+  <div class="container1" id="skill">
+    <div class="technical-bars">
+      <div class="bar"><i style="color: #c95d2e" class="fa-brands fa-html5"></i>
+        <div class="info">
+          <span>HTML</span>
+        </div>
+         <div class="progress" style="height:10px">
+    <div class="progress-bar" style="width:80%;"></div>
+  </div>
+      </div>
+       <div class="bar"><i style="color: #147bbc"  class="fa-brands fa-css"></i>
+        <div class="info">
+          <span>CSS</span>
+        </div>
+          <div class="progress" style="height:10px">
+            <div class="progress-bar" style="width:70%;"></div>
+          </div>
+       <div class="bar"><i style="color: #063b5c"  class="fa-brands fa-python"></i>
+        <div class="info">
+          <span>Python</span>
+        </div>
+  <div class="progress" style="height:10px">
+    <div class="progress-bar" style="width:57%;"></div>
+  </div>
+       <div class="bar"><i style="color: #b0bc1e"  class="fa-brands fa-js"></i>
+        <div class="info">
+          <span>JavaScript</span>
+        </div>
+            <div class="progress" style="height:10px">
+    <div class="progress-bar" style="width:48%;"></div>
+  </div>
+  </div>
+</section>
+ 
+
+<!---Hobi---->
+<section class="portfolio" id="portfolio">
+    <h2>Hobi</h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <h4>Main Game</h4>
+        <i class="fa-solid fa-gamepad fa-2xl"></i>
+        <img src="img/game.jpg" style="width: 60%">
+        <div class="portfolio-layer">
+        </div>
+      </div>
+
+       <div class="portfolio-box">
+        <h4>Bola Kaki</h4>
+        <i class="fa-regular fa-futbol fa-2xl"></i>
+        <img src="img/foto1.jpeg" style="width: 60%">
+        <div class="portfolio-layer">
+        </div>
+      </div>
+
+       <div class="portfolio-box">
+        <h4>Mendengarkan Musik</h4>
+        <i class="fa-solid fa-music fa-2xl"></i>
+        <img src="img/lagu.jpg" style="width: 60%">
+        <div class="portfolio-layer">
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <h4>Ngoding</h4>
+        <i class="fa-solid fa-code fa-2xl"></i>
+        <img src="img/coding.jpg" style="width: 60%">
+        <div class="portfolio-layer">
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<!---contack---->
+<section class="contack" id="contack">
+  <h2 class="heading">Contact Me</h2>
+
+  <form class="#">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+      <input type="number" placeholder="Mobile Number">
+      <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+    <link><a class="nav-link" href="#home"><i class="fa-solid fa-arrow-up fa-2xl" style="color: white"></i></link></a>
+  </form>  
+</section>
+
+
+
+
+<footer>
+  <p>Nabillatul Syahbandi Ardyansal</p>
+  <p>Jangan Lupa Follow And Subscibe Social Media And Youtube Saya</p>
+  <div class="social">
+    <a href="https://www.instagram.com/nabilll1__/profilecard/?igsh=aDh5eGh2Y2UwbDdx"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@bilzzyt6308"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@nabilll1__?_t=8rssVMx7CtD&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+  <p class="end">CopyRight By Nabillatul Syahbandi Ardyansal</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="script.js"></script>
+</body>
+</html>
